@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Uber Animal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Uber Animal</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="informacoes.html">Como Funciona</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="comentarios.html">Comentários</a></li>
+                <li><a href="formulario.html">Cadastrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cadastro para Transporte ou Hospedagem</h2>
+            <form action="#">
+            
+             <p>   <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required></p>
+
+                <p><label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required></p>
+
+                <p> <label for="animal">Nome do Animal:</label>
+                <input type="text" id="animal" name="animal" required></p>
+                
+                <p><label for="raca">Raça do seu animal/porte:</label></p>
+                <input type="text" id="raca" name="raca">
+
+                <p> <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+
+                <p><label for="dias">Quantos dias o animal ficará hospedado? (Caso seja para hospedagem):</label>
+                <input type="number" id="dias" name="dias"></p>
+
+               <p><label for="data">Data de Retorno (se for hospedagem):</label></p>
+                <input type="date" id="data" name="data">
+
+                
+
+                <p><input type="submit" value="Cadastrar"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Uber Animal. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
